@@ -1,0 +1,17 @@
+.blog-conteudo {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.blog-conteudo h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.blog-conteudo h1 {
+  font-size: 40px;
+  line-height: 1.3em;
+  text-align: center;
+}

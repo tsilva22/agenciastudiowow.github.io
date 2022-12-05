@@ -1,0 +1,67 @@
+.contratacao-bg {
+  background-image: url("../../img/background/bg-contratacao.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 700px;
+}
+
+.contratacao-bg-transparente {
+  background-color: #00000099;
+  height: 700px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contratacao-conteudo {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contratacao-texto {
+  width: 50%;
+}
+
+.contratacao-fluxo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contratacao-texto h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contratacao-texto h1 {
+  font-size: 40px;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+}
+
+.contratacao-texto p {
+  margin-bottom: 20px;
+  max-width: 50ch;
+}
+
+.num-fluxo {
+  font-size: 40px;
+}
+
+.contratacao-fluxo h3 {
+  font-size: 18px;
+}
+
+.fluxo-container {
+  background-color: var(--cor-0);
+  padding: 20px;
+  border-radius: 20px;
+  width: 265px;
+  margin: 10px;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+.sobre-bg {
+  place-items: center;
+}
+
+.sobre-conteudo {
+  display: flex;
+  width: 1140px;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sobre-conteudo-texto {
+  width: 50%;
+  padding-right: 30px;
+}
+
+.sobre-conteudo-imagem {
+  background: linear-gradient(
+    135deg,
+    var(--cor-15) 0%,
+    var(--cor-4) 20%,
+    var(--cor-15) 40%,
+    var(--cor-0) 80%
+  );
+  width: 50%;
+  padding-left: 0px;
+  opacity: 1;
+  border-radius: 100px 10px 100px 10px;
+  box-shadow: 10px 26px 69px 8px rgb(110 6 43 / 14%);
+}
+
+.sobre-bg h3 {
+  font-size: 18px;
+  margin-bottom: 0.75rem;
+}
+
+.sobre-bg h1 {
+  font-size: 40px;
+  line-height: 1.3em;
+  margin-bottom: 1rem;
+}
+
+.sobre-bg p {
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  padding-right: 30px;
+  margin-bottom: 3.25rem;
+}

@@ -1,0 +1,31 @@
+.introducao-bg {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: url("../../img/background/background-studio-wow-1-1024x640.jpg");
+  background-size: cover;
+  height: 750px;
+  position: relative;
+}
+
+.introducao-bg-transparente {
+  background-color: #33333399;
+}
+
+.introducao-conteudo {
+  padding-top: 100px;
+}
+
+.introducao-conteudo h1 {
+  line-height: 1.25;
+  padding-bottom: 50px;
+  letter-spacing: -1.5px;
+  font-size: 64px;
+}
+
+.recorte {
+  height: 104px;
+  width: 100%;
+  bottom: -1px;
+  position: absolute;
+  background: linear-gradient(-4deg, var(--cor-0) 49.5%, #33333300 50%);
+}

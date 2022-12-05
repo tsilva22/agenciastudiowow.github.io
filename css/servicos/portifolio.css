@@ -1,0 +1,148 @@
+.portifolio-bg {
+  margin-bottom: 70px;
+}
+
+.portifolio-titulo {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.portifolio-titulo h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.portifolio-titulo h1 {
+  font-size: 40px;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.portifolio-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+
+.portifolio-menu a {
+  padding: 16px;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.portifolio-todos {
+  display: flex;
+  flex-direction: column;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sites-institucionais,
+.paginas-vendas,
+.lojas {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 343px;
+  height: 398px;
+}
+
+.site-img {
+  border-style: solid;
+  border-width: 20px 20px 20px 20px;
+  border-color: var(--cor-0);
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 10%);
+  overflow: hidden;
+}
+
+.botao-portifolio {
+  width: max-content;
+  padding: 18px 45px;
+  justify-self: center;
+  align-self: center;
+}
+
+.carro-luxo {
+  background-image: url("../../img/portifolio/carros-luxo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+}
+
+.paula {
+  background-image: url("../../img/portifolio/paula.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+}
+
+.barreto {
+  background-image: url("../../img/portifolio/barreto-construcoes2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+}
+
+.magras-bru {
+  background-image: url("../../img/portifolio/magras-da-bru.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+}
+
+.asfalto {
+  background-image: url("../../img/portifolio/asfalto.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+}
+
+.phoenix {
+  background-image: url("../../img/portifolio/phoenix-sports.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+}
+
+.mater-dei {
+  background-image: url("../../img/portifolio/mater-dei.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+}
+
+.paula:hover,
+.carro-luxo:hover,
+.barreto:hover,
+.magras-bru:hover,
+.asfalto:hover,
+.phoenix:hover,
+.mater-dei:hover {
+  background-position: center bottom;
+  transition-duration: 3s;
+}

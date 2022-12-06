@@ -1,0 +1,38 @@
+.footer-bg {
+  background-color: var(--cor-8);
+}
+
+.footer-conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-conteudo img {
+  width: 100px;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-redes img {
+  width: 35px;
+}
+
+.footer-contato {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.footer-contato li:first-child {
+  margin-bottom: 0.9rem;
+}

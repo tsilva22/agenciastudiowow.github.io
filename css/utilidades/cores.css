@@ -20,6 +20,7 @@
   --cor-18: #147766;
   --cor-19: #dbdbdb;
   --cor-20: #88f1ad80;
+  --cor-21: #8a8a8a;
 }
 
 .cor-0 {
@@ -104,4 +105,8 @@
 
 .cor-20 {
   color: var(--cor-20);
+}
+
+.cor-21 {
+  color: var(--cor-21);
 }

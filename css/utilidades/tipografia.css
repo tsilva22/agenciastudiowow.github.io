@@ -14,6 +14,10 @@
   font-weight: 500;
 }
 
+.font-h2-b-r {
+  font-family: Roboto, "Sans-serif";
+}
+
 .font-h3-l {
   font-family: "Poppins", "Sans-serif";
   font-weight: 400;
@@ -23,6 +27,16 @@
 .font-h3-b {
   font-family: "Poppins", "Sans-serif";
   font-weight: 700;
+}
+
+.font-h3-b-r {
+  font-family: Roboto, "Sans-serif";
+  font-weight: 600;
+}
+
+.font-h4-l {
+  font-family: Roboto, "Sans-serif";
+  font-weight: 400;
 }
 
 .font-p {
